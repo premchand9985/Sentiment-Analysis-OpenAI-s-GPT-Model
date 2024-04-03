@@ -8,11 +8,11 @@ Sentiment analysis is a powerful tool for understanding the emotional tone of te
 
 ## How it Works
 
-Data Collection: The script collects comments from specified subreddits using the Reddit API. It retrieves the top submissions from each subreddit and extracts comments from them.
+- Data Collection: The script collects comments from specified subreddits using the Reddit API. It retrieves the top submissions from each subreddit and extracts comments from them.
 
-Sentiment Scoring: Each comment is scored for sentiment using OpenAI's GPT models. The sentiment score ranges from -1 (most negative) to 1 (most positive), providing a quantitative measure of the comment's sentiment.
+- Sentiment Scoring: Each comment is scored for sentiment using OpenAI's GPT models. The sentiment score ranges from -1 (most negative) to 1 (most positive), providing a quantitative measure of the comment's sentiment.
 
-Visualization: The sentiment scores are visualized using seaborn and matplotlib, allowing for easy interpretation of the sentiment distribution across different subreddits.
+- Visualization: The sentiment scores are visualized using seaborn and matplotlib, allowing for easy interpretation of the sentiment distribution across different subreddits.
 
 ## Dependencies
 
@@ -23,6 +23,7 @@ seaborn: Python visualization library based on matplotlib.
 matplotlib: Python plotting library.
 
 ## Setup
+
 1. Install Dependencies: Install the required dependencies using pip:
 
 pip install openai pandas praw seaborn matplotlib
