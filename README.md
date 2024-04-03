@@ -37,8 +37,11 @@ Create a Reddit app to obtain your client_id, client_secret, and user_agent.
 Configure Environment:
 
 Create a .env file in the project directory and add your API keys:
+
 OPENAI_API_KEY=<Your_OpenAI_API_Key>
+
 REDDIT_CLIENT_ID=<Your_Reddit_Client_ID>
+
 REDDIT_CLIENT_SECRET=<Your_Reddit_Client_Secret>
 
 ## Usage
