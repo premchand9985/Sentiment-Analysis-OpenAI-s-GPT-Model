@@ -53,8 +53,11 @@ Run Script: Execute the script to collect comments, score their sentiment, and v
 python reddit_sentiment_analysis.py
 
 ## Files
-reddit_sentiment_analysis.py: Main Python script for collecting Reddit comments, scoring sentiment, and visualizing the results.
-.env: Configuration file for storing API keys.
+reddit_sentiment_analysis.py: 
+Main Python script for collecting Reddit comments, scoring sentiment, and visualizing the results.
+
+.env: 
+Configuration file for storing API keys.
 
 ## Acknowledgements
 This script utilizes OpenAI's GPT models for sentiment analysis.
